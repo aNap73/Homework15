@@ -82,7 +82,7 @@ class Home extends Component {
             <div className="col-8">
               <h2>{this.state.articles.length
                   ? "Article Results"
-                  : "Search for some articles"}
+                  : "No Article Results at the moment..."}
               </h2>
 
               <ul className="list-group list-group-flush">
