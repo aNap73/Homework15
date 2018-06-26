@@ -11,9 +11,11 @@ const App = () => (
     <div >
       <Navbar/>
       <Switch>
-        <Route exact path="/" component={Home}/>
+        <Route exact path="/" component={Home}/>        
         <Route exact path="/saved" component={Saved}/>
+        <Route exact path='/about' component={() => window.location = 'https://github.com/aNap73/Homework15/blob/master/README.md'}/>
         <Route render={() => (<h1 className="text-center">Page Not Found!</h1>)}/>
+        
       </Switch>
     </div>
   </Router>)

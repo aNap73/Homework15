@@ -13,7 +13,12 @@ const Navbar = () =>  (<nav className="navbar navbar-expand-lg navbar-light bg-l
         <li className="nav-item">
           <NavLink className="nav-link" to="/saved">Saved</NavLink>
         </li>
+        <li className="nav-item">
+        <NavLink className="nav-link" to="/about">About</NavLink>
+        </li>
+        
       </ul>
+          
     </div>
   </nav>)
 
