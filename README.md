@@ -8,7 +8,6 @@ It is a full stack M.E.R.N application.
 
 [Live Site Here](https://nameless-ravine-24612.herokuapp.com/)
 
-Sorry for the lack of information here... my schedule is a bit agressive right now.
 
 thx
 
