@@ -1,8 +1,8 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-const Navbar = () => (
-  <nav className="navbar navbar-expand-lg navbar-light bg-light">
+
+const Navbar = () =>  (<nav className="navbar navbar-expand-lg navbar-light bg-light">
     <NavLink className="navbar-brand" to="/">NYT React Search</NavLink>
     
     <div className="collapse navbar-collapse" id="navbarNav">
@@ -15,7 +15,7 @@ const Navbar = () => (
         </li>
       </ul>
     </div>
-  </nav>
-)
+  </nav>)
+
 
 export default Navbar;

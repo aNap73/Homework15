@@ -5,9 +5,10 @@ import Home from "./containers/Home";
 import Saved from "./containers/Saved";
 
 
+
 const App = () => (
   <Router>
-    <div>
+    <div >
       <Navbar/>
       <Switch>
         <Route exact path="/" component={Home}/>
@@ -15,8 +16,7 @@ const App = () => (
         <Route render={() => (<h1 className="text-center">Page Not Found!</h1>)}/>
       </Switch>
     </div>
-  </Router>
-)
+  </Router>)
 
 
 export default App;

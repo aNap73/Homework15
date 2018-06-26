@@ -46,8 +46,10 @@ class Home extends Component {
   }
 
   render() {
+    
+          // const cnst = {backgroundColor: "red"}
     return (
-      <div>
+      <div >
         <div className="jumbotron jumbotron-fluid py-5">
           <div className="row align-items-center justify-content-center my-5">
             <h1>Welcome to the NYT Article Search (with React)!</h1>
